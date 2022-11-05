@@ -1,0 +1,24 @@
+[36mDiscovery starting.[0m
+[36mDiscovery completed in 88 milliseconds.[0m
+[36mRun starting. Expected test count is: 10[0m
+[32mSudokuBoardTest:[0m
+[32mA sudoku board (0-indexed)[0m
+[32m- should have 2 in cell (1, 2)[0m
+[32m- should not have 8 in cell (8, 8)[0m
+[32m- should have proper string representation of sudoku board[0m
+[32mSudokuFileParserTest:[0m
+[32mSudoku parser [0m
+[32m- should parse valid sudoku board[0m
+[32m- should throw error on invalid sudoku board with alphabets[0m
+[32m- should throw error on invalid sudoku board with invalid numbers[0m
+[32m- should throw error on invalid sudoku board with negative numbers[0m
+[32m- should throw error on invalid sudoku board with invalid shape[0m
+[32mSudokuValidatorTest:[0m
+[32mSudoku validator[0m
+[32m- should validate valid sudoku board[0m
+[32m- should invalidate invalid sudoku board[0m
+[36mRun completed in 169 milliseconds.[0m
+[36mTotal number of tests run: 10[0m
+[36mSuites: completed 4, aborted 0[0m
+[36mTests: succeeded 10, failed 0, canceled 0, ignored 0, pending 0[0m
+[32mAll tests passed.[0m
